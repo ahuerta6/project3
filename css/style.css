@@ -1,0 +1,201 @@
+/*navigation bar */
+#cbar {
+ width: 960px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+nav#bar ul {
+ text-align: center;
+ display: inline-block;
+ list-style-type: none;
+ background-color: rgb(82, 1, 82);
+ border: 2px solid black;
+ width: 650px;
+ padding: 0;
+ margin-left: 155px;
+ margin-right: auto;
+ overflow: hidden;
+}
+
+nav#bar ul li { 
+ float: left;
+ margin: 0 30px;
+}
+
+nav#bar ul li a {
+ background-color: rgb(104, 199, 231);
+ display: block;
+ color: white;
+ margin: 0px auto;
+ border-radius: 20px;
+ text-decoration: none;
+ text-align: center;
+ font-weight: bold;
+ font-size: 25px;
+ width: 150px;
+ height: 30px;
+ z-index: 10;
+}
+
+nav#bar ul li a:hover {
+ background-color: white;
+ color: black;
+ border-radius: 20px;
+}
+
+/* index css */
+
+#res {
+ z-index: 8;
+ background-image: url(https://dpuk71x9wlmkf.cloudfront.net/assets/2019/08/02193720/B7023-How-to-Build-my-Resume-Social.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#centerin {
+ box-sizing: content-box;
+ position: relative;
+ border-radius: 10px;
+ border: 2px solid black;
+ background-color: lightblue;
+ width: 400px;
+ height: 100%;
+ height: max-content;
+ font-family: 'Playfair Display', serif;
+ color: black;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 9px;
+}
+
+/* page 2 css */
+
+#game {
+ background-image: url(https://papers.co/wallpaper/papers.co-so01-purple-pink-fire-blur-gradation-25-wallpaper.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin: 0%;
+}
+
+#wrap2 {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 960px;
+ border: 2px solid black;
+ font-family: 'Exo 2', sans-serif;
+ font-style: italic;
+ font-weight: bold;
+ text-align: center;
+ color: black;
+}
+
+#wrap2_2 {
+ margin: 0 auto;
+ width: 960px;
+}
+
+#valorant {
+ text-align: center;
+ box-sizing: content-box;
+ font-size: 20px;
+ margin: 4px 0 0 5%;
+ width: 25%;
+ float: left;
+ font-weight: bold;
+ color: white;
+ font-family: 'Exo 2', sans-serif;
+ font-style: italic;
+ font-weight: bold;
+ background-color: darkblue;
+}
+
+#apex {
+ text-align: center;
+ box-sizing: content-box;
+ float: left;
+ width: 25%;
+ margin: 4px 5%;
+ font-size: 20px;
+ font-weight: bold;
+ color: white;
+ font-family: 'Exo 2', sans-serif;
+ font-style: italic;
+ font-weight: bold;
+ background-color: red;
+}
+
+#minecraft {
+ text-align: center;
+ box-sizing: content-box;
+ font-size: 20px;
+ margin: 4px 5% 0 0;
+ width: 25%;
+ float: left;
+ font-weight: bold;
+ color: white;
+ font-family: 'Exo 2', sans-serif;
+ font-style: italic;
+ font-weight: bold;
+ background-color: green;
+}
+
+/* page 3 css */
+
+#sport {
+ background-image: url(https://cutewallpaper.org/21/color-fade-background/Color-Fade-iPhone-6-Wallpapers-Top-Free-Color-Fade-iPhone-.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin: 0%;
+}
+
+#wrap3 {
+ width: 960px;
+ margin: 0 auto;
+ border: 2px solid black;
+}
+
+#textalign {
+ box-sizing: content-box;
+ border: 3px solid black;
+ width: 500px;
+ height: 425px;
+ font-family: 'Spartan', sans-serif;
+ font-weight: bold;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+ margin-bottom: 50px;
+ background-color: white;
+}
+
+#text2 {
+ box-sizing: content-box;
+ border: 3px solid black;
+ width: 500px;
+ height: 425px;
+ font-family: 'Spartan', sans-serif;
+ font-weight: bold;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+ margin-bottom: 50px;
+ background-color: white;
+}
+
+#title {
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: 'Spartan', sans-serif;
+ font-weight: bold;
+ color: white;
+}
+
+#video {
+ margin-left: auto;
+ margin-right: auto;
+}
