@@ -117,6 +117,7 @@ nav#bar ul li a:hover {
  box-sizing: content-box;
  float: left;
  width: 25%;
+ height: auto;
  margin: 4px 5%;
  font-size: 20px;
  font-weight: bold;
