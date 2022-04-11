@@ -98,6 +98,7 @@ nav#bar ul li a:hover {
 
 #valorant {
  text-align: center;
+ box-sizing: content-box;
  font-size: 20px;
  margin: 4px 0 0 5%;
  width: 25%;
