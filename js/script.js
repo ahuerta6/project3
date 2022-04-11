@@ -5,3 +5,7 @@ $('.bxslider').bxSlider({
  pager: true,
  slideWidth: 600
 });
+
+$(document).ready(function(){
+ $('.slider').bxSlider();
+});
