@@ -201,10 +201,21 @@ nav#bar ul li a:hover {
 }
 
 /* slider */
+
 .slideshow {
  max-width: 600px;
  margin: 0 auto;
 }
 .slideshow ul {
  margin:0;
+}
+
+/*map*/
+
+/* Set the size of the div element that contains the map */
+#map {
+ height: 400px;
+ /* The height is 400 pixels */
+ width: 100%;
+ /* The width is the width of the web page */
 }
