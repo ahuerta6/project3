@@ -11,8 +11,12 @@
     <script src="/js/script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  </head>
+    <!--script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script-->
+  
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
   <body id="game">
     <nav id="cbar">
       <nav id="bar">
@@ -49,13 +53,23 @@
           <p>Minecraft is a game where you can create and destroy various types of blocks. There are two modes survival, and creative. In survival mode players must explore the map and get their own materials to survive. In creative mode you can do anything you want you don't need to find materials because you have unlimited supplies of everything, and you can't be killed by monsters.</p>
         </div>
       </section>
-      <div class="slideshow">
-        <ul class="slider">
-          <li><img src="/media/valorant-group.png"/></li>
-          <li><img src="/media/apex-legends.jpg"/></li>
-          <li><img src="/media/minecraft-group.png"/></li>
-        </ul>
-      </div>
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container0">
+	<div class="ws_images"><ul>
+		<li><img src="data0/images/valorantgroup.png" alt="valorant-group" title="Valorant" id="wows0_0"/></li>
+		<li><a href="http://wowslider.net"><img src="data0/images/apexlegends.jpg" alt="css image slider" title="Apex Legends" id="wows0_1"/></a></li>
+		<li><img src="data0/images/minecraftgroup.png" alt="minecraft-group" title="Minecraft" id="wows0_2"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="valorant-group"><span><img src="data0/tooltips/valorantgroup.png" alt="valorant-group"/>1</span></a>
+		<a href="#" title="apex-legends"><span><img src="data0/tooltips/apexlegends.jpg" alt="apex-legends"/>2</span></a>
+		<a href="#" title="minecraft-group"><span><img src="data0/tooltips/minecraftgroup.png" alt="minecraft-group"/>3</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">slideshow html code</a> by WOWSlider.com v9.0</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+	<script type="text/javascript" src="engine0/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
     </div>
   </body>
 </html>
