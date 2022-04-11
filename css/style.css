@@ -21,6 +21,7 @@ nav#bar ul {
 nav#bar ul li { 
  float: left;
  margin-left: 30px;
+ margin-right: 30px;
 }
 
 nav#bar ul li a {
