@@ -101,7 +101,7 @@ nav#bar ul li a:hover {
  box-sizing: content-box;
  font-size: 20px;
  margin: 4px 0 0 5%;
- width: 300;
+ width: 300pt;
  height: 900px;
  float: left;
  font-weight: bold;
@@ -116,7 +116,7 @@ nav#bar ul li a:hover {
  text-align: center;
  box-sizing: content-box;
  float: left;
- width: 300;
+ width: 300pt;
  height: 900px;
  margin: 4px 5%;
  font-size: 20px;
@@ -133,7 +133,7 @@ nav#bar ul li a:hover {
  box-sizing: content-box;
  font-size: 20px;
  margin: 4px 5% 0 0;
- width: 300;
+ width: 300pt;
  height: 900px;
  float: left;
  font-weight: bold;
