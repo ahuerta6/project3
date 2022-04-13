@@ -17,11 +17,4 @@ function initMap() {
    map: map,
  });
 }
-
-function initpage() {
-  var pg = document.getElementById('');
-  var t = document.getElementById(ti);
-  pg.addEventListener('click', function(){
-    alert()
-  })
-}
+window.addEventListener('load', initMap)
