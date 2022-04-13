@@ -246,6 +246,8 @@ nav#bar ul li a:hover {
  background-color: rgba(54, 54, 54, 0.8);
  padding: 20px;
  color: #fefefe;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .translucent-form-overlay .columns.row {
