@@ -230,4 +230,5 @@ nav#bar ul li a:hover {
  float: left;
  font-size: small;
  font-weight: bold;
+ z-index: -99;
 }
