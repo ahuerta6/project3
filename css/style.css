@@ -259,7 +259,7 @@ nav#bar ul li a:hover {
 }
 
 .translucent-form-overlay input, .translucent-form-overlay select {
- color: #8a8a8a;
+ color: blue;
 }
 
 .translucent-form-overlay input::-webkit-input-placeholder {
