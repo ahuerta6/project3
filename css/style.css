@@ -263,13 +263,13 @@ nav#bar ul li a:hover {
 }
 
 .translucent-form-overlay input::-webkit-input-placeholder {
- color: #8a8a8a;
+ color: blue;
 }
 
 .translucent-form-overlay input:-ms-input-placeholder {
- color: #8a8a8a;
+ color: blue;
 }
 
 .translucent-form-overlay input::placeholder {
- color: #8a8a8a;
+ color: blue;
 }
