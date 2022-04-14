@@ -298,15 +298,11 @@ nav#bar ul li a:hover {
 }
 
 #base1 {
- width: 100%;
- height: 100%;
  z-index: 10;
  margin-right: 80px;
 }
 
 #base2 {
- width: 100%;
- height: 100%;
  z-index: 10;
  margin-left: 80px;
 }
