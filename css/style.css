@@ -279,3 +279,18 @@ nav#bar ul li a:hover {
 .translucent-form-overlay input::placeholder {
  color: #8a8a8a;
 }
+
+.if {
+ position: relative;
+ padding-bottom: 56.25%;
+ padding-top: 25px;
+ height: 0;
+}
+
+.if iframe{
+ position: absolute;
+ top: 0;
+ left: 0%;
+ width: 30%;
+ height: 30%;
+}
