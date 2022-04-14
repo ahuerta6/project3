@@ -291,6 +291,6 @@ nav#bar ul li a:hover {
  position: absolute;
  top: 0;
  left: 0%;
- width: 80%;
- height: 50%;
+ width: 100%;
+ height: 100%;
 }
