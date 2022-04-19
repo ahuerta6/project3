@@ -300,9 +300,11 @@ nav#bar ul li a:hover {
 #base1 {
  z-index: 10;
  margin-right: 80px;
+ margin-top: 4px;
 }
 
 #base2 {
  z-index: 10;
  float: right;
+ margin-top: 4px;
 }
