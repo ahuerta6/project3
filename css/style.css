@@ -27,6 +27,7 @@ nav#bar ul li {
 nav#bar ul li a {
  background-color: rgb(104, 199, 231);
  display: block;
+ padding: 20px 25px;
  color: white;
  margin: 0px auto;
  border-radius: 20px;
