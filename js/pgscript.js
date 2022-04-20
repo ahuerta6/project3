@@ -1,10 +1,8 @@
 function initpage() {
  var pg = document.getElementById('page');
  var t = document.getElementById('ti');
- var r = document.getElementById('result');
  pg.addEventListener('click', function(){
-   r.innerHTML = t.value
-   alert("You're on the " + r.value + " page.");
+   alert("You're on the " + t.value + " page.");
  });
 }
 window.addEventListener('load', initpage);
