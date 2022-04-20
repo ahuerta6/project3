@@ -229,7 +229,7 @@ nav#bar ul li a:hover {
  margin: auto;
 }
 #centergoogle {
- margin: auto;
+ text-align: center;
 }
 
 /*java file for all pages*/
