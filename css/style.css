@@ -139,7 +139,8 @@
 /* page 3 css */
 
 #sport {
- background-image: url(https://cutewallpaper.org/21/color-fade-background/Color-Fade-iPhone-6-Wallpapers-Top-Free-Color-Fade-iPhone-.jpg);
+ background-color: black;
+ color: white;
  background-repeat: repeat;
  background-size: cover;
  margin: 0%;
