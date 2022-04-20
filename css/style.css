@@ -31,8 +31,7 @@ nav#bar ul li a {
  text-align: center;
  font-weight: bold;
  font-size: 25px;
- width: 80px;
- height: 30px;
+ width: 100px;
  z-index: 10;
 }
 
