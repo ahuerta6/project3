@@ -1,4 +1,8 @@
 /*navigation bar */
+#cen{
+ width: 100%;
+}
+
 #cbar {
  width: 960px;
  text-align: center;
