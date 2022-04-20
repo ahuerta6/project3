@@ -250,8 +250,7 @@
  font-weight: bold;
  margin-left: auto;
  margin-right: auto;
- margin-top: 5px;
- clear: none;
+ clear: both;
  z-index: 10;
 }
 
