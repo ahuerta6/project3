@@ -24,7 +24,7 @@
  width: 100px;
 }
 
-nav#bar ul li a:hover {
+.navi ul li a:hover {
  background-color: white;
  color: black;
  border-radius: 20px;
