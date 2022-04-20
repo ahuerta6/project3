@@ -227,6 +227,7 @@ nav#bar ul li a:hover {
  width: 80%;
  /* The width is the width of the web page */
  margin: auto;
+ margin-top: 4px;
 }
 #centergoogle {
  text-align: center;
