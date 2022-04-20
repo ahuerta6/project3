@@ -1,31 +1,21 @@
 /*navigation bar */
-#cen{
- width: 100%;
- background-color: black;
-}
-
-#cbar {
- width: 960px;
- text-align: center;
-}
-
-nav#bar ul {
+.navi ul {
  text-align: center;
  list-style-type: none;
  padding: 0;
  margin: 0;
+ background: black;
 }
 
-nav#bar ul li {
+.navi ul li {
  display: inline-block;
 }
 
-nav#bar ul li a {
+.navi ul li a {
  background-color: rgb(104, 199, 231);
  display: block;
  padding: 10 px 6px;
  color: white;
- margin: 0px auto;
  border-radius: 20px;
  text-decoration: none;
  text-align: center;
