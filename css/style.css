@@ -11,6 +11,7 @@
 nav#bar ul {
  text-align: center;
  display: inline-block;
+ position: relative;
  list-style-type: none;
  background-color: rgb(82, 1, 82);
  border: 2px solid black;
