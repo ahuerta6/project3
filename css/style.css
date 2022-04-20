@@ -11,13 +11,10 @@
 
 nav#bar ul {
  text-align: center;
- position: relative;
  list-style-type: none;
  border: 2px solid black;
  padding: 0;
- margin-left: 240px;
- margin-right: auto;
- overflow: hidden;
+ margin: 0;
 }
 
 nav#bar ul li {
