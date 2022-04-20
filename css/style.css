@@ -74,7 +74,7 @@ nav#bar ul li a:hover {
 
 #game {
  background-image: url(https://papers.co/wallpaper/papers.co-so01-purple-pink-fire-blur-gradation-25-wallpaper.jpg);
- background-repeat: no-repeat;
+ background-repeat: repeat;
  background-size: cover;
  margin: 0%;
 }
@@ -150,7 +150,7 @@ nav#bar ul li a:hover {
 
 #sport {
  background-image: url(https://cutewallpaper.org/21/color-fade-background/Color-Fade-iPhone-6-Wallpapers-Top-Free-Color-Fade-iPhone-.jpg);
- background-repeat: no-repeat;
+ background-repeat: repeat;
  background-size: cover;
  margin: 0%;
  font-family: 'Spartan', sans-serif;
