@@ -13,6 +13,7 @@
 }
 
 .navi ul li a {
+ margin-top: auto
  background-color: rgb(104, 199, 231);
  display: block;
  padding: 10 px 6px;
