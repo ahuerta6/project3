@@ -222,7 +222,7 @@ nav#bar ul li a:hover {
 
 /* Set the size of the div element that contains the map */
 #map {
- height: 800px;
+ height: 600px;
  /* The height is 400 pixels */
  width: 90%;
  /* The width is the width of the web page */
