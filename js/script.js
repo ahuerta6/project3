@@ -19,6 +19,7 @@ function initMap() {
 */
 
 addMarker(chicago);
+addMarker({lat:41.739685, lng:-87.554420});
 
  function addMarker(coords) {
   const marker = new google.maps.Marker({
