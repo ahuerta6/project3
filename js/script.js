@@ -11,10 +11,18 @@ function initMap() {
    zoom: 11,
    center: chicago,
  });
- // The marker, positioned
+ /* The marker, positioned
  const marker = new google.maps.Marker({
    position: chicago,
    map: map,
  });
+*/
+
+ function addMarker(coords) {
+  const marker = new google.maps.Marker({
+    position: coords,
+    map: map,
+  });
+ }
 }
 window.addEventListener('load', initMap)
