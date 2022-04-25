@@ -12,10 +12,12 @@ function initMap() {
    center: chicago,
  });
  // The marker, positioned at Uluru
- const marker = new google.maps.Marker({
+ const image =
+    "https://render.fineartamerica.com/images/rendered/default/print/8/6.5/break/images-medium-5/chicago-flag-mike-maher.jpg";
+  const beachMarker = new google.maps.Marker({
    position: chicago,
    map: map,
-   icon: 'https://render.fineartamerica.com/images/rendered/default/print/8/6.5/break/images-medium-5/chicago-flag-mike-maher.jpg'
+   icon: 'image'
  });
 }
 window.addEventListener('load', initMap)
