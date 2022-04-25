@@ -14,6 +14,7 @@
 
 .navi ul li a {
  margin-top: 5px;
+ margin-bottom: 5px;
  background-color: rgb(104, 199, 231);
  display: block;
  padding: 10 px 6px;
