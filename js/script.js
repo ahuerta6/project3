@@ -18,14 +18,21 @@ function initMap() {
  });
 */
 
-addMarker(chicago);
-addMarker({lat:41.83, lng:-87.6298});
+addMarker({
+  coords:chicago,
+  iconImage: 'https://image.freepik.com/free-photo/flag-chicago-city-illinois-us_2227-1121.jpg'
+});
+addMarker({coords:{lat:41.83, lng:-87.6298}});
 
- function addMarker(coords) {
+ function addMarker(props) {
   const marker = new google.maps.Marker({
-    position: coords,
+    position: props.coords,
     map: map,
   });
+  //check for icon
+  if(props.iconImage){
+    marker.setIcon(props.iconImage);
+  }
  }
 }
 window.addEventListener('load', initMap)
