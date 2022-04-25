@@ -55,7 +55,7 @@ addMarker({
 
   //add marker on click
   google.maps.event.addListener(map, 'click', function(event){
-    addMarker({coords:event.latlng});
+    addMarker({coords:event.latLng});
   });
  }
 }
