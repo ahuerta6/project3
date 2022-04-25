@@ -52,6 +52,11 @@ addMarker({
    infoWindow.open(map, marker);
  });
   }
+
+  //add marker on click
+  google.maps.event.addListener(map, 'click', function(event){
+    addMarker({coords:event.latlng});
+  });
  }
 }
 window.addEventListener('load', initMap)
