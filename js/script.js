@@ -26,7 +26,7 @@ addMarker({
 addMarker({
   coords:{lat:41.83, lng:-87.6298},
   iconImage: 'https://designlooter.com/images/hawk-svg-7.png',
-  content: '<p>IIT is located in the south of Chicago</p>',
+  content: '<h1>IIT is located in the south of Chicago</h1>',
 });
 
  function addMarker(props) {
