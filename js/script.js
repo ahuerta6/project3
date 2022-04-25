@@ -18,6 +18,8 @@ function initMap() {
  });
 */
 
+addMarker(chicago);
+
  function addMarker(coords) {
   const marker = new google.maps.Marker({
     position: coords,
