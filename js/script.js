@@ -6,6 +6,8 @@ $(document).ready(function(){
 function initMap() {
   // The location
  const chicago = { lat: 41.8781, lng: -87.6298 };
+
+ const IIT = {lat:41.83, lng:-87.6298};
  // The map, centered
  const map = new google.maps.Map(document.getElementById('map'), {
    zoom: 11,
@@ -24,7 +26,7 @@ addMarker({
   content: '<h1>This is the middle of Chicago</h1>',
 });
 addMarker({
-  coords:{lat:41.83, lng:-87.6298},
+  coords:IIT,
   iconImage: 'https://designlooter.com/images/hawk-svg-7.png',
   content: '<h1>IIT is located in the south of Chicago</h1>',
 });
