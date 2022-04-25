@@ -15,6 +15,7 @@ function initMap() {
  const marker = new google.maps.Marker({
    position: chicago,
    map: map,
+   icon: 'https://render.fineartamerica.com/images/rendered/default/print/8/6.5/break/images-medium-5/chicago-flag-mike-maher.jpg'
  });
 }
 window.addEventListener('load', initMap)
