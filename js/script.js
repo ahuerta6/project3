@@ -5,21 +5,16 @@ $(document).ready(function(){
 // Initialize and add the map
 function initMap() {
  // The location
- var options = {
+ const chicago = { lat: 41.8781, lng: -87.6298 };
  // The map, centered
+ const map = new google.maps.Map(document.getElementById('map'), {
    zoom: 11,
-   center: {lat: 41.8781, lng: -87.6298},
- };
-
-//New map
-var map = new
- google.maps.Map(document.getElementById('map'), options);
-
- // adding maker
- var marker = new google.maps.Marker({
-  position:{lat:41.8782, lang:-87.6292}
+   center: chicago,
+ });
+ // The marker, positioned
+ const marker = new google.maps.Marker({
+   position: chicago,
    map: map,
  });
 }
-
 window.addEventListener('load', initMap)
