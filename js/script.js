@@ -10,7 +10,7 @@ function initMap() {
  const IIT = {lat:41.83, lng:-87.6298};
  // The map, centered
  const map = new google.maps.Map(document.getElementById('map'), {
-   zoom: 11,
+   zoom: 13,
    center: chicago,
  });
  /* The marker, positioned
