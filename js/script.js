@@ -22,7 +22,7 @@ function initMap() {
 
 addMarker({
   coords:chicago,
-  icon: 'https://image.freepik.com/free-photo/flag-chicago-city-illinois-us_2227-1121.jpg',
+  icon: 'media/chiflag.jpg',
   content: '<h1>This is the middle of Chicago</h1>',
 });
 addMarker({
