@@ -68,4 +68,4 @@ function initpage() {
     alert("URL: " + t);
   });
  }
-window.addEventListener('load', initMap)
+window.addEventListener('load', initMap, initpage)
