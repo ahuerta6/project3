@@ -1,8 +1,8 @@
 function initpage() {
  var pg = document.getElementById('page');
- var t = document.getElementById('ti').value;
+ var t = document.getElementById('ti');
  pg.addEventListener('click', function(){
-   alert("You're on the " + t + " page.");
+   alert("URL: " + t);
  });
 }
 window.addEventListener('load', initpage);
