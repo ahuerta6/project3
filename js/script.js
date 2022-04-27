@@ -27,7 +27,7 @@ addMarker({
 });
 addMarker({
   coords:IIT,
-  icon: 'media/hawk.png',
+  icon: 'hawk.png',
   content: '<h1>IIT is located in the south of Chicago</h1>',
 });
 
