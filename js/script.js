@@ -22,12 +22,12 @@ function initMap() {
 
 addMarker({
   coords:chicago,
-  iconImage: 'https://image.freepik.com/free-photo/flag-chicago-city-illinois-us_2227-1121.jpg',
+  icon: 'https://image.freepik.com/free-photo/flag-chicago-city-illinois-us_2227-1121.jpg',
   content: '<h1>This is the middle of Chicago</h1>',
 });
 addMarker({
   coords:IIT,
-  iconImage: 'https://designlooter.com/images/hawk-svg-7.png',
+  icon: 'https://designlooter.com/images/hawk-svg-7.png',
   content: '<h1>IIT is located in the south of Chicago</h1>',
 });
 
@@ -39,8 +39,8 @@ addMarker({
   });
 
   //check for icon
-  if(props.iconImage){
-    marker.setIcon(props.iconImage);
+  if(props.icon){
+    marker.setIcon(props.icon);
   }
 
  //check for content
